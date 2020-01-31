@@ -3,7 +3,7 @@ Health monitoring system for Texas Instruments Real Time Operating System (TI-RT
 
 ## Relevant files
 - `main.c`
-- `Upstair.h`
+- `upstair.h`
 - Everything under `bitmaps/`
 - Everything under `libs/`
 
