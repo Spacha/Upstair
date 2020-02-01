@@ -10,6 +10,8 @@ The goal was to make a software that encourages the user to make healthier choic
 2. Using elevator to go up/down
 3. Doing neither
 
+The gyro was used (jointly with the accelomter) to take the orientation of the device into account before interpreting the accelometer data.
+
 If the user was using stairs, a broadcast was sent to all surrounding devices telling how sporty the user was. It could also receive messages from similar devices and store them for later reading. It had also many other simple features including graphical menu (Nokia 3310 style) and simple scoring system.
 
 Register descriptions were provided, based on which I could read the relevant data from each sensor's register using I2C
